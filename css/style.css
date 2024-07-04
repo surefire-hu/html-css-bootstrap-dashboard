@@ -1,0 +1,17 @@
+:root {
+    --sh-bg-body: #f8f9fa;
+    --sh-bg-navbar: #e5e5e5;
+    --sh-bg-main: #1b72e8;
+    --sh-bg-badge: #165bba;
+    --sh-bg-sidebar: #051e34;
+    --sh-color-icon: #6c757d;
+}
+
+.search-bg {
+    background-color: #EBEEF0;
+}
+
+.dropstart .sh-btn-color, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active , .dropstart .sh-btn-color:hover {
+    color: #ff8f00;
+    border: none;
+}
