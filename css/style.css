@@ -94,7 +94,7 @@ button.sh-component-btn {
 }
 
 .sh-w-40 {
-    width: 40%;
+    width: 30%;
 }
 
 .sh-w-10 {
@@ -116,6 +116,18 @@ button.sh-component-btn {
     #sh-main .off-res {
         width: 100% !important;
     }
+
+    .sh-w-10 {
+        width: 100%;
+    }
+
+    .sh-w-40 {
+        width: 100%;
+    }
+
+    .mb-3 .d-flex .w-lg-100 {
+        width: 100% !important;
+    }
  }
 
  .sh-component-class {
@@ -131,4 +143,8 @@ button.sh-component-btn {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.mb-3 .w-50 {
+    width: calc(50% - 1.5rem) !important;
 }
