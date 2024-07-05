@@ -69,6 +69,16 @@ body {
     border: 1px solid white;
 }
 
+button.sh-component-btn {
+    all: unset;
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--ec-color-icon);
+    border-radius: 4px;
+    vertical-align: middle;
+    color: var(--ec-color-icon);
+}
+
 .sh-badge {
     background-color: var(--sh-bg-badge);
     display: inline-block;
@@ -96,6 +106,10 @@ body {
         width: 150px;
     }
 
+    #sh-right-main {
+        width: calc(100% / 3);
+    }
+
  }
 
  @media screen and (max-width:992px) {
@@ -103,3 +117,18 @@ body {
         width: 100% !important;
     }
  }
+
+ .sh-component-class {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sh-component-class .sh-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
