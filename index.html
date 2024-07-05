@@ -66,6 +66,7 @@
         </div>
     </header>
       <main>
+        <!-- sidebar -->
         <div id="sh-container" class="d-flex">
             <div id="sh-sidebar" class="flex-shrink-0">
                 <ul class="list-unstyled text-white d-flex flex-column h-100 p-4">
@@ -95,6 +96,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- main-top -->
             <div id="sh-main" class="overflow-y-auto container-fluid p-0 flex-grow-1">
                 <div id="sh-main-top" class="p-3">
                     <div class="row mx-0">
@@ -103,6 +105,7 @@
                                 <h5 class="me-3">Nuovo Studente</h5>
                                 <button class="sh-btn btn btn-primary border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                             </div>
+                            <!-- offcanvas -->
                             <div class="offcanvas offcanvas-end w-50 off-res" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
@@ -217,7 +220,303 @@
                         </div>
                         <div class="col-12 px-0 col-md-4 col-lg-3">
                             <h6>Studenti online negli ultimi 30 minuti</h6>
-                            <h5>125</h5>
+                            <h5>9274</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- main-bottom -->
+                <div id="sh-main-bottom" class="d-flex flex-column flex-lg-row">
+                    <div id="sh-left-main" class="p-2">
+                        <div class="row mx-0">
+                            <div class="col-12 px-0">
+                                <div class="card mb-3">
+                                    <h5 class="card-header">Prossime classi</h5>
+                                    <div class="card-body">
+                                        <!-- table section -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="col-6 col-md-4">Nome</th>
+                                                    <th scope="col" class="text-center d-none d-lg-table-cell col-md-2">Data inizio</th>
+                                                    <th scope="col" class="text-center d-none d-md-table-cell col-md-2">ROI</th>
+                                                    <th scope="col" class="text-center col-3 col-md-2">Stato</th>
+                                                    <th scope="col" class="text-center col-3 col-md-2">Azioni</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 75</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">15 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                        <div class="sh-component-class">
+                                                            <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                        </div>
+                                                        <span>Classe 76</span>
+                                                    </a></th>
+                                                    <td class="text-center d-none d-lg-table-cell">15 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                        <div class="sh-component-class">
+                                                            <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                        </div>
+                                                        <span>Classe 77</span>
+                                                    </a></th>
+                                                    <td class="text-center d-none d-lg-table-cell">17 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-warning text-white">process</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 78</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">18 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 79</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">19 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-danger">failed</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 80</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">20 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 81</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">21 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-danger">failed</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">
+                                                        <a href="#" target="_blank">
+                                                            <div class="sh-component-class">
+                                                                <img src="img/class-avatar.jpg" alt="class avatar" class="sh-image">
+                                                            </div>
+                                                            <span>Classe 82</span>
+                                                        </a>
+                                                    </th>
+                                                    <td class="text-center d-none d-lg-table-cell">22 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="sh-component-btn text-center mx-1">
+                                                            <i class="fa-solid fa-trash-can"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 px-0">
+                                <div class="card">
+                                    <!-- F.A.Q. section -->
+                                    <h5 class="card-header">F.A.Q.</h5>
+                                    <div class="card-body">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Come aggiungere un nuovo studente?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Clicca sul + in alto nella sezione blu.*</div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Come posso accedere alle informazioni del mio account?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Clicca sull'icona della campanella.</div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Posso usare questa dashboard da mobile?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Scarica l'app per mobile.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="sh-right-main" class="p-2">
+                        <div class="row mx-0">
+                            <div class="col-12 px-0">
+                                <div class="card mb-3">
+                                    <!-- Todo section -->
+                                    <h5 class="card-header">Todo</h5>
+                                    <div class="card-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                                <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                                <label class="form-check-label" for="secondCheckbox">Lezioni su Bootstrap 5 in classe #75</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                                <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 px-0">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <!-- statistic section -->
+                                                <h5 class="card-title">Utenti attivi</h5>
+                                                <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese.</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Gennaio: 1200</li>
+                                                <li class="list-group-item">Febbraio: 800</li>
+                                                <li class="list-group-item">Marzo: 1500</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
